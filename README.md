@@ -18,7 +18,7 @@ Each input is processed by an identical subnetwork (shared weights), running in 
 ### Binary Classification: 
 The resulting distance is passed through a sigmoid layer, and we use Binary Cross Entropy as the loss function.
  
-<img src="https://github.com/user-attachments/assets/476733b3-7c0c-4ceb-901e-cd4d23427700" width=500 />
+<img src="https://github.com/user-attachments/assets/285cc207-0dc1-47fc-a457-6c3c1e669210" width=500 />
  
 ## Initial Results
 Our initial results showed an average accuracy of 99.40% on the provided test set. However, the model tended to classify genuine signatures as forged more often than the reverse. However, it's preferable to falsely reject your own signature than to mistakenly accept a forged one.
