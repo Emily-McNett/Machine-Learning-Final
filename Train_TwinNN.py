@@ -58,9 +58,6 @@ example_batch = next(dataiter)
 # This is done to visualize the images side by side
 concatenated = torch.cat((example_batch[0], example_batch[1]), 0)
 
-# Displays the concatenated images using torchvision's make_grid function
-#imshow(torchvision.utils.make_grid(concatenated))
-
 # Prints the labels of the images in the batch as a numpy array
 print(example_batch[2].numpy())
 
