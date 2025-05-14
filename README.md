@@ -9,11 +9,14 @@ We utilized 119 user signature samples from the ICDAR 2011 Signature Verificatio
 Due to our further exploration on our own signitures and professors we are not including the data folders. Here is the link to the original kaggle dataset- https://www.kaggle.com/datasets/mallapraveen/signature-matching
  
 ## Architecture
-### Dual Inputs: Two inputs are passed to the model simultaneously.
+### Dual Inputs: 
+Two inputs are passed to the model simultaneously.
  
-### Parallel Subnetworks: Each input is processed by an identical subnetwork (shared weights), running in parallel.
+### Parallel Subnetworks: 
+Each input is processed by an identical subnetwork (shared weights), running in parallel.
  
-### Binary Classification: The resulting distance is passed through a sigmoid layer, and we use Binary Cross Entropy as the loss function.
+### Binary Classification: 
+The resulting distance is passed through a sigmoid layer, and we use Binary Cross Entropy as the loss function.
  
 <img src="https://github.com/user-attachments/assets/476733b3-7c0c-4ceb-901e-cd4d23427700" width=500 />
  
