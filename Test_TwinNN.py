@@ -1,6 +1,6 @@
 
 import torch
-from Entropy_Train_TwinNN import TwinNeuralNetwork, TwinDataset  # Assuming both are defined in Train_TwinNN.py
+from Train_TwinNN import TwinNeuralNetwork, TwinDataset  # Assuming both are defined in Train_TwinNN.py
 from torch.utils.data import DataLoader
 from torchvision import transforms
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
