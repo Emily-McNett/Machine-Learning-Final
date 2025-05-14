@@ -22,6 +22,7 @@ Our initial results showed an average accuracy of 99.40% on the provided test se
  
 ### Note
 All the training and testing images were of similar quality and style, and our small dataset size likely contributed to the high accuracy, possibly due to overfitting. With medium to large datasets, we would expect the accuracy to drop to 80–90% or even 70–80%.
+
 <img src="https://github.com/user-attachments/assets/b0572835-f752-4e3a-9d57-8421fb45b172" width=500 />
  
 ## Further Exploration
