@@ -67,8 +67,7 @@ with torch.no_grad():
 
         if shown >= num_pairs_to_show:
             break
-
-#region Emily don't touch this testiing the image count
+            
 # Accuracy counters
 correct = 0
 total = 0
